@@ -90,11 +90,13 @@
 	justify-content: space-evenly;
 	margin-bottom: var(--section-margin);
 }
-.partnerships-container > img{
-	width: 5rem;
+.partnerships > div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.partnerships-container > img:nth-child(1){
-	width: 35rem;
+.partnerships-img{
+	width: 100%;
 }
 
 footer{
@@ -108,6 +110,10 @@ footer{
 }
 .footer-contact{
 	padding-left: 10rem;
+	width: 100%;
+}
+.contact-us{
+	width: 100%;
 }
 .contact-us > li{
 	margin-bottom: 0.5em;
@@ -115,4 +121,9 @@ footer{
 .contact-us > li > a{
 	text-decoration: none;
 	color: var(--sputnik-color);
+}
+@media only screen and (max-width:800px){
+	.footer-contact{
+		padding-left: 0;
+	}	
 }
