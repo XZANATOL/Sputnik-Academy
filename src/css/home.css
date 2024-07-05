@@ -1,0 +1,118 @@
+:root{
+	--section-margin: 5em;
+	--sputnik-color: #146EF5;
+}
+
+.navbar-brand > img{
+	width: 5rem;
+}
+
+.navbar-collapse{
+	justify-content: space-between;
+}
+
+.navbar-right-side{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.cover, .cover > img{
+	width: 100%;
+}
+
+.cover{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	height: 36em;
+	margin-bottom: var(--section-margin);
+}
+
+.slogan{
+	text-align: center;
+	font-weight: 600;
+}
+.slogan-colored{
+	color: var(--sputnik-color);
+}
+.slogan-p{
+	text-align: center;
+	margin-bottom: var(--section-margin);
+}
+
+.about-us{
+	font-weight: 600;
+	text-align: center;
+}
+.about-us-p{
+	text-align: justify;
+	text-align-last: center;
+}
+
+.carousel-item > div{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.carousel-item > div > a{
+	text-decoration: none;
+}
+.carousel-item > div > a > img{
+	width: 500px !important;
+/*	aspect-ratio: 1 / 1;*/
+}
+.carousel{
+	margin-bottom: calc(var(--section-margin) / 2);
+}
+.carousel-control-prev-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.sep{
+	border: 0.1px solid;
+	color: var(--sputnik-color);
+	opacity: 1;
+	width: 75%;
+	margin-bottom: calc(var(--section-margin) / 2);
+
+}
+
+.partnerships-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-bottom: var(--section-margin);
+}
+.partnerships-container > img{
+	width: 5rem;
+}
+.partnerships-container > img:nth-child(1){
+	width: 35rem;
+}
+
+footer{
+	background-color: #F8F9FA;
+	padding: 2rem;
+}
+.footer-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-contact{
+	padding-left: 10rem;
+}
+.contact-us > li{
+	margin-bottom: 0.5em;
+}
+.contact-us > li > a{
+	text-decoration: none;
+	color: var(--sputnik-color);
+}
